@@ -9,6 +9,18 @@ body {
   margin: 0; /* Reset default margin */
 }
 
+/* GENERAL */
+
+figcaption h4 {
+  margin: 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* NAV menu */
+
 nav {
   position: fixed;
   display: flex;
@@ -28,8 +40,6 @@ nav {
   margin: 10px;
   height: 50px;
 }
-
-/* NAV menu */
 
 .nav-menu {
   display: flex;
@@ -93,4 +103,31 @@ figure {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+/* LOCATIONS */
+
+.locations {
+  display: flex;
+  height: 500px;
+  max-width: 1200px;
+  background-image: url("./images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  text-align: center;
+  flex-basis: 300px;
+  margin: 15px 30px;
 }
