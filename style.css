@@ -1,0 +1,23 @@
+body {
+  box-sizing: content-box;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: solid 1px seashell;
+}
+
+figure {
+  margin: 0;
+}
+
+.logo img {
+  margin: 10px;
+  height: 50px;
+}
