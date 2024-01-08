@@ -34,6 +34,7 @@ nav {
 .nav-menu {
   display: flex;
   margin-right: 10px; /* Adjust margin as needed */
+  flex-wrap: wrap;
 }
 
 figure {
@@ -51,7 +52,16 @@ figure {
 header {
   display: flex;
   height: 700px;
+  max-width: 1200px;
   background-image: url("images/img-mission-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
+  margin: auto;
+  padding-top: 69px;
+}
+
+.header-text {
+  width: 100%;
+  background-color: black;
 }
