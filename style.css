@@ -117,7 +117,8 @@ figure {
   background-size: cover;  
   justify-content: center;
   align-content: center;
-  margin: 50px auto;
+  margin: 50px auto 20px;
+  /* height: 100vh; */
 }
 
 .containers {
@@ -132,4 +133,30 @@ figure {
   text-align: center;
   flex-basis: 300px;
   margin: 15px 30px;
+}
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 200px;
+}
+
+#contact h2,
+#contact h5,
+#contact p {
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  text-align: left;
+  margin-top: 20px;
+  left: 20px;
+  bottom: 20px;
 }
