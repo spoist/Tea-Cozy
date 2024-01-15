@@ -109,12 +109,14 @@ figure {
 
 .locations {
   display: flex;
+  flex-direction: column;
   height: 500px;
   max-width: 1200px;
   background-image: url("./images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;  
   justify-content: center;
+  align-content: center;
   margin: 50px auto;
 }
 
